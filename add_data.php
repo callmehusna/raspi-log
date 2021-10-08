@@ -7,3 +7,4 @@ echo $dateS;
 $SQL = "INSERT INTO raspi_db.data (date, data) VALUES ('$dateS','".$_GET["data"]."')";     
 // Execute SQL statement
 mysql_query($SQL);
+?>
